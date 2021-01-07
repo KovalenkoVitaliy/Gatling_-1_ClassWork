@@ -1,0 +1,12 @@
+POST http://computer-database.gatling.io/computers HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers/new
+Accept-Language: ru-RU
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Content-Length: 71
+Host: computer-database.gatling.io
+Proxy-Connection: Keep-Alive
+Pragma: no-cache
+

@@ -1,0 +1,464 @@
+[API Trapper      (2bdc:1d60)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (1dec: ba4)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (1dec:15e0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1dec:15e0)] Load Network Traffic Analyzers:
+[Network Analyzer (1dec:15e0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1dec:15e0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1dec:15e0)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1dec:15e0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1dec:15e0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1dec:15e0)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1dec:15e0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1dec:15e0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1dec:11a8)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:15e0)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:1fe8)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:15e0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/computers"   
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Client -> Server @ : 325 bytes (Service=HTTP)
+[Network Analyzer (1dec:1fe8)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Server -> Client : 7539 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/assets/stylesheets/bootstrap.min.css"   
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Client -> Server @ : 373 bytes (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/assets/stylesheets/main.css"   
+[Network Analyzer (1dec:11a8)]   (Sid:  2) Client -> Server @ : 364 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  2) Server -> Client : 1134 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Server -> Client : 12923 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/favicon.ico"   
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Client -> Server @ : 258 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Server -> Client : 2104 bytes  (Service=HTTP)
+[Network Analyzer (1dec:1a88)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:1a88)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1dec:2a28)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid:  3) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:2a28)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid:  4) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid:  3) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:11a8)]   (Sid:  4) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:1318)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1dec:2e64)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1dec:1e38)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:1e38)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 200 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 196 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 239 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Net An. Error    (1dec:2e64)] SSLAccept(ssl_id = 128219544 = 07A47998) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:2e64)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1dec:1318)] SSLAccept(ssl_id = 127645456 = 079BB710) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:1318)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:11a8)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid:  4) Connection Terminated (by Client)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/computers/new"   
+[Network Analyzer (1dec:11a8)]   (Sid:  2) Client -> Server @ : 385 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  2) Server -> Client : 5464 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/favicon.ico"   
+[Network Analyzer (1dec:11a8)]   (Sid:  2) Client -> Server @ : 258 bytes (Service=HTTP)
+[Network Analyzer (1dec:1ba4)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:1ba4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1dec:1fe8)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid:  6) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:1fe8)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid:  7) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  2) Server -> Client : 2104 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  6) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:11a8)]   (Sid:  7) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:2ed8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1dec:2ed8)] SSLAccept(ssl_id = 129671656 = 07BAA1E8) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:2ed8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:1608)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1dec:1608)] SSLAccept(ssl_id = 129889192 = 07BDF3A8) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:1608)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:11a8)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2bdc:1cb0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2bdc:1cb0)] Load Network Traffic Analyzers:
+[Network Analyzer (2bdc:1cb0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2bdc:1cb0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2bdc:1cb0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2bdc:1cb0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2bdc:1cb0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2bdc:1cb0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2bdc:1cb0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2bdc:1cb0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2bdc:2da4)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (2bdc:2e3c)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (2bdc:1cb0)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (2bdc:2e3c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (2bdc:2da4)] "CONNECT c.urs.microsoft.com:443"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  1) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (2bdc:1cb0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (2bdc:2da4)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  2) Client -> Server @ : 148 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  2) Server -> Client : 107 bytes 
+[Network Analyzer (2bdc:2da4)]   (Sid:  1) Server -> Client : 107 bytes 
+[Network Analyzer (2bdc:2bcc)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2bdc:2db8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2bdc:2e3c)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (2bdc:2e3c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2bdc:293c)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Web Request      (2bdc:2da4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (2bdc:293c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (2bdc:2da4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 500 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Client -> Server @ : 311 bytes (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 500 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Client -> Server @ : 250 bytes (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Client -> Server @ : 200 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 2588 bytes  (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 6904 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 3027 bytes  (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Client -> Server @ : 243 bytes (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Client -> Server @ : 196 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 2588 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Client -> Server @ : 239 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 2588 bytes  (Service=HTTP)
+[Web Request      (2bdc:2da4)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Client -> Server @ : 196 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  4) Server -> Client : 6904 bytes  (Service=HTTP)
+[Net An. Error    (2bdc:2bcc)] SSLAccept(ssl_id = 1961660687968 = 000001C8BC16A660) Failed, ctx = 000001C8BC232070, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bdc:2bcc)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (2bdc:2da4)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Client -> Server @ : 239 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  3) Server -> Client : 6904 bytes  (Service=HTTP)
+[Net An. Error    (2bdc:2db8)] SSLAccept(ssl_id = 1961661362912 = 000001C8BC20F2E0) Failed, ctx = 000001C8BC22FEB0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bdc:2db8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2bdc:2e3c)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (2bdc:2da4)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (2bdc:2e3c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2bdc:2da4)] "CONNECT c.urs.microsoft.com:443"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  5) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  5) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:15e0)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:15e0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2bdc: 9e0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2bdc: 9e0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2bdc:2a54)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Web Request      (2bdc:2da4)] "GET /l1.dat?cw=637194112741176080&v=3&cv=9.11.18362.0&os=10.0.18363.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  5) Client -> Server @ : 430 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2bdc:2a54)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (2bdc:2da4)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  6) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  6) Server -> Client : 107 bytes 
+[Network Analyzer (2bdc:2da4)]   (Sid:  5) Server -> Client : 135 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (2bdc:28c0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2bdc:28c0)] SSLAccept(ssl_id = 1961662842896 = 000001C8BC378810) Failed, ctx = 000001C8BC232070, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bdc:28c0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (1dec:11a8)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid:  8) Client -> Server @ : 148 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  8) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:2098)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 500 bytes  (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2bdc:1f34)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (2bdc:1f34)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 500 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 200 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 2588 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 2588 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 196 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 2588 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 239 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 2588 bytes  (Service=HTTP)
+[Net An. Error    (1dec:2098)] SSLAccept(ssl_id = 130170696 = 07C23F48) Failed, ctx = 07ACE848, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:2098)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (2bdc:2da4)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  7) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  7) Server -> Client : 107 bytes 
+[Network Analyzer (2bdc:1ca0)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2bdc:1ca0)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1dec:11a8)]   (Sid:  8) Connection Terminated (by Client)
+[Web Request      (2bdc:2da4)] "GET /IE11/1478281996/iecompatviewlist.xml?cvlp=5168446610543477570"   
+[Network Analyzer (2bdc:2da4)]   (Sid:  7) Client -> Server @ : 388 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  7) Server -> Client : 479 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  7) Server -> Client : 15904 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bdc:2da4)]   (Sid:  7) Server -> Client : 10300 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dec:1a88)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:15e0)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:1a88)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1dec:15e0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (1dec:11a8)] "POST http://computer-database.gatling.io/computers"   
+[Network Analyzer (1dec:11a8)]   (Sid:  9) Client -> Server @ : 544 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  9) Server -> Client : 262 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/computers"   
+[Network Analyzer (1dec:11a8)]   (Sid: 10) Client -> Server @ : 470 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid: 10) Server -> Client : 7757 bytes  (Service=HTTP)
+[Network Analyzer (1dec:2a28)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:1fe8)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:2a28)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 11) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:1fe8)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 12) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid: 11) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:11a8)]   (Sid: 12) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:23ec)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer (1dec: d1c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 200 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 196 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 239 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Net An. Error    (1dec:23ec)] SSLAccept(ssl_id = 130460584 = 07C6ABA8) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:23ec)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1dec: d1c)] SSLAccept(ssl_id = 206019008 = 0C4799C0) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec: d1c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:11a8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid: 12) Connection Terminated (by Client)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/computers?f=NameVitKov"   
+[Network Analyzer (1dec:11a8)]   (Sid:  9) Client -> Server @ : 394 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  9) Server -> Client : 3101 bytes  (Service=HTTP)
+[Network Analyzer (1dec:2a28)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:15e0)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:2a28)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 13) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:15e0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 14) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid: 13) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:11a8)]   (Sid: 14) Server -> Client : 107 bytes 
+[Network Analyzer (1dec: 8ac)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer (1dec: 9e4)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 499 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 200 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 439 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 196 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Client -> Server @ : 239 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  5) Server -> Client : 6904 bytes  (Service=HTTP)
+[Net An. Error    (1dec: 9e4)] SSLAccept(ssl_id = 206408408 = 0C4D8AD8) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec: 8ac)] SSLAccept(ssl_id = 206662592 = 0C516BC0) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec: 9e4)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1dec: 8ac)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:11a8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid: 14) Connection Terminated (by Client)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/computers/2744"   
+[Network Analyzer (1dec:11a8)]   (Sid: 10) Client -> Server @ : 399 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid: 10) Server -> Client : 5689 bytes  (Service=HTTP)
+[Network Analyzer (1dec:15e0)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:15e0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1dec:2a28)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 15) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:2a28)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 16) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid: 15) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:11a8)]   (Sid: 16) Server -> Client : 107 bytes 
+[Network Analyzer (1dec: f78)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1dec: f78)] SSLAccept(ssl_id = 129876584 = 07BDC268) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec: f78)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:2a98)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1dec:2a98)] SSLAccept(ssl_id = 130316216 = 07C477B8) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:2a98)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:11a8)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid: 16) Connection Terminated (by Client)
+[Web Request      (1dec:11a8)] "POST http://computer-database.gatling.io/computers/2744/delete"   
+[Network Analyzer (1dec:11a8)]   (Sid:  9) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid:  9) Server -> Client : 251 bytes  (Service=HTTP)
+[Web Request      (1dec:11a8)] "GET http://computer-database.gatling.io/computers"   
+[Network Analyzer (1dec:11a8)]   (Sid: 10) Client -> Server @ : 460 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid: 10) Server -> Client : 7746 bytes  (Service=HTTP)
+[Network Analyzer (1dec:2a28)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:15e0)] Address lookup for 5CD7411BSX = 192.168.235.63
+[Network Analyzer (1dec:2a28)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 17) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:15e0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (1dec:11a8)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1dec:11a8)]   (Sid: 18) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1dec:11a8)]   (Sid: 17) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:11a8)]   (Sid: 18) Server -> Client : 107 bytes 
+[Network Analyzer (1dec:2968)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1dec:2968)] SSLAccept(ssl_id = 129416736 = 07B6BE20) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec:2968)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec: e28)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1dec: e28)] SSLAccept(ssl_id = 206153800 = 0C49A848) Failed, ctx = 04EE9518, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1dec: e28)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dec:11a8)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (1dec:11a8)]   (Sid: 18) Connection Terminated (by Client)

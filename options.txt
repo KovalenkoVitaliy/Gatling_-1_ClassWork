@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Admin\Desktop\LoadRunner (НТ Стажировка)\Gatling_№1_ClassWork
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\admin\desktop\loadrunner (нт стажировка)\gatling_№1_classwork\\logfile.log
+c:\users\admin\desktop\loadrunner (нт стажировка)\gatling_№1_classwork\\combined_Task1(2303).c
+c:\users\admin\desktop\loadrunner (нт стажировка)\gatling_№1_classwork\\pre_cci.c

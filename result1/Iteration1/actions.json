@@ -1,0 +1,85 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: computers",
+                "infFile": "t1.inf",
+                "time": 1595105339153
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "start",
+                "rawStartTime": 1595105335851,
+                "rawEndTime": 1595105339156,
+                "thinkTime": 0.0,
+                "wastedTime": 1.1217067241668702
+            }
+        ]
+    },
+    {
+        "actionName": "Action1",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t2.inf",
+                "time": 1595105339354
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: computers_2",
+                "infFile": "t3.inf",
+                "time": 1595105339647
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "start",
+                "rawStartTime": 1595105339172,
+                "rawEndTime": 1595105339648,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012630462646484375
+            }
+        ]
+    },
+    {
+        "actionName": "Action2",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: computers_3",
+                "infFile": "t4.inf",
+                "time": 1595105339924
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: NameVitKov",
+                "infFile": "t5.inf",
+                "time": 1595105340116
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: delete",
+                "infFile": "t6.inf",
+                "time": 1595105340202
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "start",
+                "rawStartTime": 1595105339658,
+                "rawEndTime": 1595105340204,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09199261665344238
+            }
+        ]
+    },
+    {
+        "actionName": "Action3",
+        "steps": [],
+        "transactions": []
+    }
+]

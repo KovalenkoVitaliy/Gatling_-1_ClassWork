@@ -1,0 +1,11 @@
+GET http://computer-database.gatling.io/computers/new HTTP/1.1
+Referer: http://computer-database.gatling.io/computers
+X-GW-Host: 127.0.0.1:9080
+X-Forwarded-For: 10.116.224.196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Accept: */*
+Proxy-Connection: Keep-Alive
+Host: computer-database.gatling.io
+

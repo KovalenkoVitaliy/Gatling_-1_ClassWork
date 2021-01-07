@@ -1,0 +1,3 @@
+Action2.c(29): COMP ID IS PIDRILO DYRIVYI 575
+Action3.c(5): SOSI XYI YEBAN MAMKIN 575
+Vuser Terminated.
